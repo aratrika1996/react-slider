@@ -52,14 +52,14 @@ function App() {
       setValue2(newValue);
       if((newValue + value1) < 100) {
         let v3 = newValue + value1;
-        let v4 = (100 - v3) * .5
-        setValue3(v4)
-        setValue4(v4)
+        let v4 = (100 - v3) * .5;
+        setValue3(v4);
+        setValue4(v4);
       }
       else if ((newValue + value1) >= 100){
-        setValue1(100 - newValue)
-        setValue3(0)
-        setValue4(0)
+        setValue1(100 - newValue);
+        setValue3(0);
+        setValue4(0);
       }
     }
   }
